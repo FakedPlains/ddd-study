@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ddd-demo-01" />
+        <module name="bank-domain" />
+        <module name="bank-types" />
+        <module name="bank-application" />
+        <module name="bank-start" />
+        <module name="bank-interface" />
+        <module name="bank-infrastructure" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
