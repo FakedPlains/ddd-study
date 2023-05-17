@@ -1,6 +1,7 @@
 package cloud.zfwproject.ddd.demo.bank.domain.repository;
 
 import cloud.zfwproject.ddd.demo.bank.domain.model.entity.Account;
+import cloud.zfwproject.ddd.demo.repository.Repository;
 import cloud.zfwproject.ddd.demo.type.AccountId;
 import cloud.zfwproject.ddd.demo.type.AccountNumber;
 import cloud.zfwproject.ddd.demo.type.UserId;
@@ -11,7 +12,7 @@ import cloud.zfwproject.ddd.demo.type.UserId;
  * @description TODO
  * @date 2023/5/16 5:03 PM
  */
-public interface IAccountRepository {
+public interface IAccountRepository extends Repository<Account, AccountId> {
 
     Account find(AccountId id);
 

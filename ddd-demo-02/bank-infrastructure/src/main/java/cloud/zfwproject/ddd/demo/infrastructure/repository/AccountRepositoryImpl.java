@@ -28,9 +28,24 @@ public class AccountRepositoryImpl implements IAccountRepository {
     private AccountBuilder accountBuilder;
 
     @Override
+    public void attach(Account aggregate) {
+
+    }
+
+    @Override
+    public void detach(Account aggregate) {
+
+    }
+
+    @Override
     public Account find(AccountId id) {
         AccountDO accountDO = accountMapper.selectById(id.getValue());
         return accountBuilder.toAccount(accountDO);
+    }
+
+    @Override
+    public void remove(Account aggregate) {
+
     }
 
     @Override

@@ -3,6 +3,7 @@ package cloud.zfwproject.ddd.demo.bank.domain.model.entity;
 import cloud.zfwproject.ddd.demo.bank.exception.DailyLimitExceededException;
 import cloud.zfwproject.ddd.demo.bank.exception.InsufficientFundsException;
 import cloud.zfwproject.ddd.demo.exception.InvalidCurrencyException;
+import cloud.zfwproject.ddd.demo.repository.Aggregate;
 import cloud.zfwproject.ddd.demo.type.AccountId;
 import cloud.zfwproject.ddd.demo.type.AccountNumber;
 import cloud.zfwproject.ddd.demo.type.Currency;
@@ -15,7 +16,7 @@ import cloud.zfwproject.ddd.demo.type.UserId;
  * @description TODO
  * @date 2023/5/16 5:01 PM
  */
-public class Account {
+public class Account implements Aggregate<AccountId> {
 
     private AccountId accountId;
 
@@ -56,6 +57,11 @@ public class Account {
 
     public Currency getCurrency() {
         return this.available.getCurrency();
+    }
+
+    @Override
+    public AccountId getId() {
+        return accountId;
     }
 
 }
