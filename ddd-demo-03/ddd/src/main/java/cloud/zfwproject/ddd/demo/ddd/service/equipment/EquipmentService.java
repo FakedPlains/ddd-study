@@ -1,7 +1,7 @@
 package cloud.zfwproject.ddd.demo.ddd.service.equipment;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
 
 /**
  * @author dz0401048

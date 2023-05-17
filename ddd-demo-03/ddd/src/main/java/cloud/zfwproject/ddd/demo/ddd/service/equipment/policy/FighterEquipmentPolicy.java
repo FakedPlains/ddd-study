@@ -1,9 +1,9 @@
 package cloud.zfwproject.ddd.demo.ddd.service.equipment.policy;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
-import cloud.zfwproject.ddd.demo.ddd.enums.PlayerClass;
-import cloud.zfwproject.ddd.demo.ddd.enums.WeaponType;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.PlayerClass;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.WeaponType;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.EquipmentPolicy;
 
 /**

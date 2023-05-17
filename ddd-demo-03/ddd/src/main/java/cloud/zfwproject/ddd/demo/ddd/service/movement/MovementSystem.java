@@ -1,8 +1,8 @@
 package cloud.zfwproject.ddd.demo.ddd.service.movement;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.Transform;
-import cloud.zfwproject.ddd.demo.ddd.dp.Vector;
-import cloud.zfwproject.ddd.demo.ddd.entity.Movable;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Transform;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Vector;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Movable;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package cloud.zfwproject.ddd.demo.ddd.service.equipment;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.policy.DefaultEquipmentPolicy;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.policy.DragoonEquipmentPolicy;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.policy.FighterEquipmentPolicy;

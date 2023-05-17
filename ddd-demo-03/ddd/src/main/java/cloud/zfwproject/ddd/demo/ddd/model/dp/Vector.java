@@ -1,4 +1,4 @@
-package cloud.zfwproject.ddd.demo.ddd.dp;
+package cloud.zfwproject.ddd.demo.ddd.model.dp;
 
 /**
  * @author dz0401048
@@ -6,14 +6,14 @@ package cloud.zfwproject.ddd.demo.ddd.dp;
  * @description TODO
  * @date 2023/5/17 2:06 PM
  */
-public class Transform {
+public class Vector {
 
     private long x;
     private long y;
 
-    public static Transform ORIGIN = new Transform(0, 0);
+    public static Vector ZERO = new Vector(0, 0);
 
-    public Transform(long x, long y) {
+    public Vector(long x, long y) {
         this.x = x;
         this.y = y;
     }

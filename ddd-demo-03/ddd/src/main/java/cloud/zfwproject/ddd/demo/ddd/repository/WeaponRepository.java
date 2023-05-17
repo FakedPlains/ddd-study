@@ -1,7 +1,7 @@
 package cloud.zfwproject.ddd.demo.ddd.repository;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.WeaponId;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.WeaponId;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
 
 /**
  * @author dz0401048

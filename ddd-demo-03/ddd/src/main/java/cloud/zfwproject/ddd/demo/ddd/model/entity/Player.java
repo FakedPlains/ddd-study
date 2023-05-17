@@ -1,10 +1,10 @@
-package cloud.zfwproject.ddd.demo.ddd.entity;
+package cloud.zfwproject.ddd.demo.ddd.model.entity;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.PlayerId;
-import cloud.zfwproject.ddd.demo.ddd.dp.Transform;
-import cloud.zfwproject.ddd.demo.ddd.dp.Vector;
-import cloud.zfwproject.ddd.demo.ddd.dp.WeaponId;
-import cloud.zfwproject.ddd.demo.ddd.enums.PlayerClass;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.PlayerId;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Transform;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Vector;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.WeaponId;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.PlayerClass;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.EquipmentService;
 import lombok.Getter;
 

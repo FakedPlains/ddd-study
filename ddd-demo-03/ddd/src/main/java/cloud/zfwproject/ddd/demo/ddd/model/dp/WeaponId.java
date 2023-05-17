@@ -1,4 +1,4 @@
-package cloud.zfwproject.ddd.demo.ddd.dp;
+package cloud.zfwproject.ddd.demo.ddd.model.dp;
 
 /**
  * @author dz0401048
@@ -6,11 +6,11 @@ package cloud.zfwproject.ddd.demo.ddd.dp;
  * @description TODO
  * @date 2023/5/17 2:02 PM
  */
-public class PlayerId {
+public class WeaponId {
 
     private Long id;
 
-    public PlayerId(Long id) {
+    public WeaponId(Long id) {
         this.id = id;
     }
 

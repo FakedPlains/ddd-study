@@ -1,4 +1,4 @@
-package cloud.zfwproject.ddd.demo.ddd.enums;
+package cloud.zfwproject.ddd.demo.ddd.model.enums;
 
 /**
  * @author dz0401048

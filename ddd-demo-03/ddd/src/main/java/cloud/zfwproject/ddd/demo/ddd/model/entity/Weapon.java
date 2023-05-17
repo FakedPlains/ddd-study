@@ -1,7 +1,7 @@
-package cloud.zfwproject.ddd.demo.ddd.entity;
+package cloud.zfwproject.ddd.demo.ddd.model.entity;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.WeaponId;
-import cloud.zfwproject.ddd.demo.ddd.enums.WeaponType;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.WeaponId;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.WeaponType;
 import lombok.Getter;
 
 /**

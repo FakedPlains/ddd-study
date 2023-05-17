@@ -1,10 +1,10 @@
 package cloud.zfwproject.ddd.demo.ddd.service.combat.policy;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Monster;
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
-import cloud.zfwproject.ddd.demo.ddd.enums.MonsterClass;
-import cloud.zfwproject.ddd.demo.ddd.enums.PlayerClass;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Monster;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.MonsterClass;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.PlayerClass;
 import cloud.zfwproject.ddd.demo.ddd.service.combat.DamagePolicy;
 
 /**

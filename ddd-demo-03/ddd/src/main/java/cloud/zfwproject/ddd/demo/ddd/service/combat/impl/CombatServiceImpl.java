@@ -1,8 +1,8 @@
 package cloud.zfwproject.ddd.demo.ddd.service.combat.impl;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Monster;
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Monster;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
 import cloud.zfwproject.ddd.demo.ddd.repository.WeaponRepository;
 import cloud.zfwproject.ddd.demo.ddd.service.combat.CombatService;
 import cloud.zfwproject.ddd.demo.ddd.service.combat.DamageManager;

@@ -1,11 +1,10 @@
-package cloud.zfwproject.ddd.demo.ddd.entity;
+package cloud.zfwproject.ddd.demo.ddd.model.entity;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.Health;
-import cloud.zfwproject.ddd.demo.ddd.dp.MonsterId;
-import cloud.zfwproject.ddd.demo.ddd.dp.Transform;
-import cloud.zfwproject.ddd.demo.ddd.dp.Vector;
-import cloud.zfwproject.ddd.demo.ddd.enums.MonsterClass;
-import com.sun.xml.internal.ws.api.message.Header;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Health;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.MonsterId;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Transform;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Vector;
+import cloud.zfwproject.ddd.demo.ddd.model.enums.MonsterClass;
 import lombok.Getter;
 
 /**
@@ -28,6 +27,11 @@ public class Monster implements Movable {
     private Vector velocity = Vector.ZERO;
 
     public void takeDamage(int damage) {
+        this.health.decreased(damage);
+    }
+
+    public boolean isAlive() {
+        return this.health.getValue() <= 0;
     }
 
     @Override

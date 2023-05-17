@@ -1,7 +1,7 @@
 package cloud.zfwproject.ddd.demo.ddd.service.equipment.impl;
 
-import cloud.zfwproject.ddd.demo.ddd.entity.Player;
-import cloud.zfwproject.ddd.demo.ddd.entity.Weapon;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Player;
+import cloud.zfwproject.ddd.demo.ddd.model.entity.Weapon;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.EquipmentManager;
 import cloud.zfwproject.ddd.demo.ddd.service.equipment.EquipmentService;
 

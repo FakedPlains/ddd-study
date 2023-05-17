@@ -1,4 +1,4 @@
-package cloud.zfwproject.ddd.demo.ddd.dp;
+package cloud.zfwproject.ddd.demo.ddd.model.dp;
 
 /**
  * @author dz0401048
@@ -12,6 +12,10 @@ public class Health {
 
     public Health(Integer value) {
         this.value = value;
+    }
+
+    public void decreased(int value) {
+        this.value -= value;
     }
 
     public Integer getValue() {

@@ -1,7 +1,7 @@
-package cloud.zfwproject.ddd.demo.ddd.entity;
+package cloud.zfwproject.ddd.demo.ddd.model.entity;
 
-import cloud.zfwproject.ddd.demo.ddd.dp.Transform;
-import cloud.zfwproject.ddd.demo.ddd.dp.Vector;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Transform;
+import cloud.zfwproject.ddd.demo.ddd.model.dp.Vector;
 
 /**
  * @author dz0401048
