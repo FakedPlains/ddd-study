@@ -11,6 +11,7 @@
         <module name="oop" />
         <module name="bank-domain" />
         <module name="bank-types" />
+        <module name="ddd" />
         <module name="bank-application" />
         <module name="bank-start" />
         <module name="bank-interface" />

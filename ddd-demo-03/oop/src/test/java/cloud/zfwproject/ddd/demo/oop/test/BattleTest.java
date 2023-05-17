@@ -10,8 +10,6 @@ import cloud.zfwproject.ddd.demo.oop.Sword;
 import org.junit.Assert;
 import org.junit.Test;
 
-
-
 /**
  * @author dz0401048
  * @version 1.0
